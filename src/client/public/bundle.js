@@ -87,7 +87,7 @@
 	
 	    _this.state = {
 	      locations: {
-	        default: [null, null]
+	        default: [undefined, undefined]
 	      }
 	    };
 	    return _this;
@@ -108,11 +108,12 @@
 	    key: 'render',
 	    value: function render() {
 	      var getLocHandler = this.onGetLocationHandler.bind(this);
+	      var coords = this.state.locations.default;
 	
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Nav2.default, { getLocHandler: getLocHandler }),
+	        _react2.default.createElement(_Nav2.default, { getLocHandler: getLocHandler, coords: coords }),
 	        _react2.default.createElement(_SideBar2.default, { className: 'pure-u-1-2' }),
 	        _react2.default.createElement(
 	          'div',
@@ -22295,6 +22296,18 @@
 	      });
 	    }
 	  }, {
+	    key: 'setCurrentLocation',
+	    value: function setCurrentLocation() {
+	      var pos = {
+	        coords: {
+	          latitude: parseFloat(document.getElementById('lat').value),
+	          longitude: parseFloat(document.getElementById('long').value)
+	        }
+	      };
+	
+	      this.props.getLocHandler(pos);
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var _this3 = this;
@@ -22310,6 +22323,13 @@
 	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-map-marker' })
 	        ),
 	        _react2.default.createElement(
+	          'button',
+	          { className: 'btn hidden-sm-down', onClick: function onClick() {
+	              return _this3.setCurrentLocation();
+	            } },
+	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-refresh' })
+	        ),
+	        _react2.default.createElement(
 	          'form',
 	          null,
 	          _react2.default.createElement(
@@ -22321,21 +22341,12 @@
 	              _react2.default.createElement(
 	                'li',
 	                { className: 'pure-menu-item' },
-	                _react2.default.createElement('input', { className: 'form-control', type: 'text', placeholder: 'Latitude' })
+	                _react2.default.createElement('input', { id: 'lat', className: 'form-control', type: 'text', placeholder: 'Latitude' })
 	              ),
 	              _react2.default.createElement(
 	                'li',
 	                { className: 'pure-menu-item' },
-	                _react2.default.createElement('input', { className: 'form-control', type: 'text', placeholder: 'Longitude' })
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                { className: 'pure-menu-item' },
-	                _react2.default.createElement(
-	                  'button',
-	                  { className: 'btn hidden-sm-down', onClick: console.log('got here!') },
-	                  _react2.default.createElement('span', { className: 'glyphicon glyphicon-refresh' })
-	                )
+	                _react2.default.createElement('input', { id: 'long', className: 'form-control', type: 'text', placeholder: 'Longitude' })
 	              )
 	            )
 	          )

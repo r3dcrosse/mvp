@@ -10,7 +10,7 @@ class App extends React.Component {
 
     this.state = {
       locations: {
-        default: [null, null]
+        default: [undefined, undefined]
       }
     }
   }
@@ -27,10 +27,11 @@ class App extends React.Component {
 
   render () {
     const getLocHandler = this.onGetLocationHandler.bind(this);
+    const coords = this.state.locations.default;
 
     return (
       <div>
-        <Nav getLocHandler={getLocHandler} />
+        <Nav getLocHandler={getLocHandler} coords={coords}/>
         <SideBar className="pure-u-1-2"/>
         <div className="pure-g">
           <div className="pure-u-1-2">

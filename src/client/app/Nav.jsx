@@ -16,25 +16,34 @@ class Nav extends React.Component {
     })
   }
 
+  setCurrentLocation() {
+    var pos = {
+      coords: {
+        latitude: parseFloat(document.getElementById('lat').value),
+        longitude: parseFloat(document.getElementById('long').value)
+      }
+    };
+
+    this.props.getLocHandler(pos);
+  }
+
   render() {
     return (
       <nav className="pure-menu pure-menu-horizontal">
         <button className="btn hidden-sm-down" onClick={() => this.getCurrentLocation()} >
           <span className="glyphicon glyphicon-map-marker"></span>
         </button>
+        <button className="btn hidden-sm-down" onClick={() => this.setCurrentLocation()} >
+          <span className="glyphicon glyphicon-refresh"></span>
+        </button>
         <form>
           <div className="form-group">
             <ul className="pure-menu-list">
               <li className="pure-menu-item">
-                <input className="form-control" type="text" placeholder="Latitude"/>
+                <input id="lat" className="form-control" type="text" placeholder="Latitude" />
               </li>
               <li className="pure-menu-item">
-                <input className="form-control" type="text" placeholder="Longitude"/>
-              </li>
-              <li className="pure-menu-item">
-                <button className="btn hidden-sm-down" onClick={console.log('got here!')} >
-                  <span className="glyphicon glyphicon-refresh"></span>
-                </button>
+                <input id="long" className="form-control" type="text" placeholder="Longitude"/>
               </li>
             </ul>
           </div>
