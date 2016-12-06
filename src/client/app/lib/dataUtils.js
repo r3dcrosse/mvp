@@ -39,8 +39,6 @@ var calcDist = (coordA, coordB) => {
 var calcTime = (timePosted) => {
   var rawCurTime = Date.now();
   var rawTimePosted = new Date(timePosted);
-  console.log(rawCurTime);
-  console.log(timePosted);
 
   var rawTime = (rawCurTime - rawTimePosted) / 1000; // convert from milliseconds to seconds
   var timeAgo = 0;

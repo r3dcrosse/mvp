@@ -98,6 +98,10 @@ body {
   padding: 8px;
 }
 
+.tweet-list-entry-image {
+  border-radius: 25px;
+}
+
 .tweet-list-entry-title {
   font-weight: bold;
 }

@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var twitterClient = require('./twitterClient.js');
+var fakeTweets = require('./dummyData.js');
 
 var app = express();
 
@@ -25,11 +26,17 @@ app.get('/', function(req, res) {
 });
 
 // ACTUAL TWITTER RESPONSE CLIENT (LIMIT: 180 requests per 15 minutes)
+// app.get('/twitter', function(req, res) {
+//   console.log('Making request to twitter API...');
+//   twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
+//     res.status(200).send(tweets);
+//   });
+// });
+
+// FAKE TWITTER RESPONSE (USE FOR TESTING!!!!)
 app.get('/twitter', function(req, res) {
-  console.log('Making request to twitter API...');
-  twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
-    res.status(200).send(tweets);
-  });
+  console.log('Making fake request to twitter API...');
+  res.status(200).send(fakeTweets.dummyTweetsData);
 });
 
 module.exports = app;

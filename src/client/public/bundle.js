@@ -22239,7 +22239,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'media-left media-middle' },
-	            _react2.default.createElement('img', { className: 'media-object', src: this.props.tweet.user.profile_image_url })
+	            _react2.default.createElement('img', { className: 'tweet-list-entry-image', src: this.props.tweet.user.profile_image_url })
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -22573,8 +22573,6 @@
 	var calcTime = function calcTime(timePosted) {
 	  var rawCurTime = Date.now();
 	  var rawTimePosted = new Date(timePosted);
-	  console.log(rawCurTime);
-	  console.log(timePosted);
 	
 	  var rawTime = (rawCurTime - rawTimePosted) / 1000; // convert from milliseconds to seconds
 	  var timeAgo = 0;

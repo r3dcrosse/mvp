@@ -1,4 +1,4 @@
-window.dummyTweetsData = {
+var dummyTweetsData = {
   "statuses": [
     {
       "created_at": "Tue Dec 06 03:41:54 +0000 2016",
@@ -1664,3 +1664,5 @@ window.dummyTweetsData = {
     "since_id_str": "0"
   }
 }
+
+module.exports.dummyTweetsData = dummyTweetsData;
