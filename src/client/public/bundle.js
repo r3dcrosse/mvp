@@ -22233,7 +22233,7 @@
   \********************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -22256,53 +22256,65 @@
 	var Nav = function (_React$Component) {
 	  _inherits(Nav, _React$Component);
 	
-	  function Nav() {
+	  function Nav(props) {
 	    _classCallCheck(this, Nav);
 	
-	    return _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).call(this, props));
 	  }
 	
 	  _createClass(Nav, [{
-	    key: "render",
+	    key: 'getCurrentLocation',
+	    value: function getCurrentLocation() {
+	      console.log('Trying to get current location');
+	      var savePosition = function savePosition(lat, long) {
+	        console.log(lat, long);
+	      };
+	
+	      window.navigator.geolocation.getCurrentPosition(function (position) {
+	        savePosition(position.coords.latitude, position.coords.longitude);
+	      });
+	    }
+	  }, {
+	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
-	        "nav",
-	        { className: "pure-menu pure-menu-horizontal" },
+	        'nav',
+	        { className: 'pure-menu pure-menu-horizontal' },
 	        _react2.default.createElement(
-	          "form",
+	          'button',
+	          { className: 'btn hidden-sm-down', onClick: function onClick() {
+	              return _this2.getCurrentLocation();
+	            } },
+	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-map-marker' })
+	        ),
+	        _react2.default.createElement(
+	          'form',
 	          null,
 	          _react2.default.createElement(
-	            "div",
-	            { className: "form-group" },
+	            'div',
+	            { className: 'form-group' },
 	            _react2.default.createElement(
-	              "ul",
-	              { className: "pure-menu-list" },
+	              'ul',
+	              { className: 'pure-menu-list' },
 	              _react2.default.createElement(
-	                "li",
-	                { className: "pure-menu-item" },
-	                _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Latitude" })
+	                'li',
+	                { className: 'pure-menu-item' },
+	                _react2.default.createElement('input', { className: 'form-control', type: 'text', placeholder: 'Latitude' })
 	              ),
 	              _react2.default.createElement(
-	                "li",
-	                { className: "pure-menu-item" },
-	                _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Longitude" })
+	                'li',
+	                { className: 'pure-menu-item' },
+	                _react2.default.createElement('input', { className: 'form-control', type: 'text', placeholder: 'Longitude' })
 	              ),
 	              _react2.default.createElement(
-	                "li",
-	                { className: "pure-menu-item" },
+	                'li',
+	                { className: 'pure-menu-item' },
 	                _react2.default.createElement(
-	                  "button",
-	                  { className: "btn hidden-sm-down", onClick: console.log('clicked!') },
-	                  _react2.default.createElement("span", { className: "glyphicon glyphicon-map-marker" })
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "li",
-	                { className: "pure-menu-item" },
-	                _react2.default.createElement(
-	                  "button",
-	                  { className: "btn hidden-sm-down", onClick: console.log('got here!') },
-	                  _react2.default.createElement("span", { className: "glyphicon glyphicon-refresh" })
+	                  'button',
+	                  { className: 'btn hidden-sm-down', onClick: console.log('got here!') },
+	                  _react2.default.createElement('span', { className: 'glyphicon glyphicon-refresh' })
 	                )
 	              )
 	            )
@@ -22371,7 +22383,16 @@
 	        _react2.default.createElement(
 	          'ul',
 	          { className: 'pure-menu-list' },
-	          _react2.default.createElement(_SideBarItem2.default, null)
+	          _react2.default.createElement(_SideBarItem2.default, null),
+	          _react2.default.createElement(
+	            'li',
+	            { className: 'pure-menu-item' },
+	            _react2.default.createElement(
+	              'a',
+	              null,
+	              '+'
+	            )
+	          )
 	        )
 	      );
 	    }

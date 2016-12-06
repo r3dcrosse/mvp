@@ -6,6 +6,13 @@
     <title>Tweeter</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
+    <script>
+      if ("geolocation" in navigator) {
+        console.log('geolocation is available!');
+      } else {
+        console.log('geolocation is not available');
+      }
+    </script>
   </head>
   <body>
     <script src="src/client/dummyData.js"></script>

@@ -12,6 +12,7 @@ class SideBar extends React.Component {
         <span className="pure-menu-heading">Tweetr</span>
           <ul className="pure-menu-list">
               <SideBarItem />
+              <li className="pure-menu-item"><a>+</a></li>
           </ul>
       </div>
     );
