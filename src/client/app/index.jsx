@@ -43,8 +43,8 @@ class App extends React.Component {
 
     return (
       <div>
-        <Nav getLocHandler={getLocHandler} coords={coords}/>
         <SideBar className="pure-u-1-2"/>
+        <Nav getLocHandler={getLocHandler} coords={coords}/>
         <div className="pure-g">
           <div className="pure-u-1-2">
           <Tweets tweetData={tweets} currentLoc={coords}/>

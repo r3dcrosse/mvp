@@ -34,25 +34,21 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <nav className="pure-menu pure-menu-horizontal">
-        <button className="btn hidden-sm-down" onClick={() => this.getCurrentLocation()} >
-          <span className="glyphicon glyphicon-map-marker"></span>
-        </button>
-        <button className="btn hidden-sm-down" onClick={() => this.setCurrentLocation()} >
-          <span className="glyphicon glyphicon-refresh"></span>
-        </button>
-        <form>
-          <div className="form-group">
-            <ul className="pure-menu-list">
-              <li className="pure-menu-item">
-                <input id="lat" className="form-control" type="text" placeholder="Latitude" />
-              </li>
-              <li className="pure-menu-item">
-                <input id="long" className="form-control" type="text" placeholder="Longitude"/>
-              </li>
-            </ul>
-          </div>
-        </form>
+      <nav className="pure-menu pure-menu-horizontal navbar">
+        <span>
+          <input id="lat" className="form-control" type="text" placeholder="Latitude" />
+          <input id="long" className="form-control" type="text" placeholder="Longitude"/>
+        </span>
+        <span>
+          <button className="btn btn-info" onClick={() => this.getCurrentLocation()} >
+            <span className="glyphicon glyphicon-map-marker"></span>
+          </button>
+        </span>
+        <span>
+          <button className="btn btn-danger" onClick={() => this.setCurrentLocation()} >
+            <span className="glyphicon glyphicon-refresh"></span>
+          </button>
+        </span>
       </nav>
     );
   }
