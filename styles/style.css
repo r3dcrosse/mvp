@@ -93,22 +93,38 @@ body {
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
 
+.tweet-list-name {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.tweet-list-name:hover, .tweet-list-username:hover {
+  color: #0084b4;
+  cursor: pointer;
+}
+
+.tweet-list-time, .tweet-list-username {
+  font-size: 12px;
+  color: #999;
+  padding-right: 10px;
+}
+
 .tweet-list-entry {
   font-size: 16px;
   padding: 8px;
 }
 
 .tweet-list-entry-image {
-  border-radius: 25px;
+  border-radius: 10px;
+  padding-right: 8px;
 }
 
 .tweet-list-entry-title {
   font-weight: bold;
 }
 
-.tweet-list-entry-title:hover {
-  color: #e62117;
-  cursor: pointer;
+.tweet-list-entry-text {
+  font-size: 16px;
 }
 
 .tweet-list-entry-detail {

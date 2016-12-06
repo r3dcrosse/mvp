@@ -22230,6 +22230,7 @@
 	
 	      var dist = 'Distance: ' + dataUtils.calcDist(this.props.currentLoc, this.props.tweet.geo);
 	      var timeSincePosted = dataUtils.calcTime(this.props.tweet.created_at);
+	      var name = this.props.tweet.user.name;
 	      return (
 	        // Fun fact: can only return one component in react, so everything needs to
 	        // be wrapped in a div. That div is your one component you return!
@@ -22237,33 +22238,34 @@
 	          'div',
 	          { className: 'tweet-list-entry' },
 	          _react2.default.createElement(
-	            'div',
+	            'span',
 	            { className: 'media-left media-middle' },
-	            _react2.default.createElement('img', { className: 'tweet-list-entry-image', src: this.props.tweet.user.profile_image_url })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'media-body' },
+	            _react2.default.createElement('img', { className: 'tweet-list-entry-image', src: this.props.tweet.user.profile_image_url }),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'tweet-list-entry-title' },
+	              'span',
+	              { className: 'tweet-list-name' },
+	              name
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'tweet-list-username' },
 	              '@' + this.props.tweet.user.screen_name
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'tweet-list-entry-detail' },
-	              this.props.tweet.text
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'tweet-list-entry-detail' },
+	              'span',
+	              { className: 'tweet-list-time' },
 	              timeSincePosted
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'tweet-list-entry-detail' },
-	              dist
 	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'tweet-list-entry-text' },
+	            this.props.tweet.text
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'tweet-list-entry-detail' },
+	            dist
 	          )
 	        )
 	      );
