@@ -22173,26 +22173,30 @@
 	  _createClass(Tweet, [{
 	    key: "render",
 	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        null,
+	      return (
+	        // Fun fact: can only return one component in react, so everything needs to
+	        // be wrapped in a div. That div is your one component you return!
 	        _react2.default.createElement(
 	          "div",
-	          { className: "media-left media-middle" },
-	          _react2.default.createElement("img", { className: "media-object", src: this.props.tweet.user.profile_image_url })
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "media-body" },
+	          { className: "tweet-list-entry" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "tweets-username" },
-	            '@' + this.props.tweet.user.screen_name
+	            { className: "media-left media-middle" },
+	            _react2.default.createElement("img", { className: "media-object", src: this.props.tweet.user.profile_image_url })
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "tweets-text" },
-	            this.props.tweet.text
+	            { className: "media-body" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "tweet-list-entry-title" },
+	              '@' + this.props.tweet.user.screen_name
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "tweet-list-entry-detail" },
+	              this.props.tweet.text
+	            )
 	          )
 	        )
 	      );

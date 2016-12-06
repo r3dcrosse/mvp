@@ -10,6 +10,9 @@ app.listen(1337, function() {
 // Serve up static files in the public directory
 app.use('/src/client/public/', express.static(path.join(__dirname, '/../client/public')));
 
+// Serve up static files in syles (css stuff)
+app.use('/styles/', express.static(path.join(__dirname, '/../../styles')));
+
 // Serve up dummy data
 app.use('/src/client/', express.static(path.join(__dirname, '/../client')));
 
