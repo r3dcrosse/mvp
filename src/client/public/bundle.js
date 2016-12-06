@@ -83,16 +83,36 @@
 	  function App(props) {
 	    _classCallCheck(this, App);
 	
-	    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+	    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+	
+	    _this.state = {
+	      locations: {
+	        default: [null, null]
+	      }
+	    };
+	    return _this;
 	  }
 	
 	  _createClass(App, [{
+	    key: 'onGetLocationHandler',
+	    value: function onGetLocationHandler(pos) {
+	      this.setState({
+	        locations: {
+	          default: [pos.coords.latitude, pos.coords.longitude]
+	        }
+	      });
+	
+	      console.log('Updated location in state: ', this.state);
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var getLocHandler = this.onGetLocationHandler.bind(this);
+	
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Nav2.default, null),
+	        _react2.default.createElement(_Nav2.default, { getLocHandler: getLocHandler }),
 	        _react2.default.createElement(_SideBar2.default, { className: 'pure-u-1-2' }),
 	        _react2.default.createElement(
 	          'div',
@@ -22130,8 +22150,6 @@
 	    _classCallCheck(this, Tweets);
 	
 	    return _possibleConstructorReturn(this, (Tweets.__proto__ || Object.getPrototypeOf(Tweets)).call(this, props));
-	    // this.state = {likesCount : 0};
-	    // this.onLike = this.onLike.bind(this);
 	  }
 	
 	  _createClass(Tweets, [{
@@ -22141,7 +22159,7 @@
 	        'div',
 	        { className: 'tweet-list media' },
 	        this.props.tweetData.map(function (tweet) {
-	          return _react2.default.createElement(_Tweet2.default, { tweet: tweet });
+	          return _react2.default.createElement(_Tweet2.default, { key: tweet.id, tweet: tweet });
 	        })
 	      );
 	    }
@@ -22265,19 +22283,21 @@
 	  _createClass(Nav, [{
 	    key: 'getCurrentLocation',
 	    value: function getCurrentLocation() {
+	      var _this2 = this;
+	
 	      console.log('Trying to get current location');
-	      var savePosition = function savePosition(lat, long) {
-	        console.log(lat, long);
+	      var savePosition = function savePosition(pos) {
+	        _this2.props.getLocHandler(pos);
 	      };
 	
 	      window.navigator.geolocation.getCurrentPosition(function (position) {
-	        savePosition(position.coords.latitude, position.coords.longitude);
+	        savePosition(position);
 	      });
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _this2 = this;
+	      var _this3 = this;
 	
 	      return _react2.default.createElement(
 	        'nav',
@@ -22285,7 +22305,7 @@
 	        _react2.default.createElement(
 	          'button',
 	          { className: 'btn hidden-sm-down', onClick: function onClick() {
-	              return _this2.getCurrentLocation();
+	              return _this3.getCurrentLocation();
 	            } },
 	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-map-marker' })
 	        ),

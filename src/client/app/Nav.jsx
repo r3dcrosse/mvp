@@ -7,12 +7,12 @@ class Nav extends React.Component {
 
   getCurrentLocation() {
     console.log('Trying to get current location');
-    var savePosition = (lat, long) => {
-      console.log(lat, long);
+    var savePosition = (pos) => {
+      this.props.getLocHandler(pos);
     };
 
     window.navigator.geolocation.getCurrentPosition(function(position) {
-      savePosition(position.coords.latitude, position.coords.longitude);
+      savePosition(position);
     })
   }
 

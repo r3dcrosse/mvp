@@ -5,8 +5,6 @@ class Tweets extends React.Component {
 
   constructor(props) {
     super(props);
-    // this.state = {likesCount : 0};
-    // this.onLike = this.onLike.bind(this);
   }
 
   render() {
@@ -14,7 +12,7 @@ class Tweets extends React.Component {
       <div className="tweet-list media">
         {
           this.props.tweetData.map(tweet =>
-            <Tweet tweet={tweet} />
+            <Tweet key={tweet.id} tweet={tweet} />
           )
         }
       </div>

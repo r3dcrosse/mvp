@@ -1,59 +1,34 @@
 window.dummyTweetsData = {
   "statuses": [
     {
-      "created_at": "Mon Dec 05 23:21:41 +0000 2016",
-      "id": 805915074749558785,
-      "id_str": "805915074749558785",
-      "text": "Can you recommend anyone for this #job in #SanFrancisco, CA? https://t.co/JqD5NPJMdI #IT #Hiring #CareerArc",
+      "created_at": "Tue Dec 06 03:41:54 +0000 2016",
+      "id": 805980558731988996,
+      "id_str": "805980558731988996",
+      "text": "I'm at @Macys in San Francisco, CA https://t.co/5os9w7p0L8",
       "truncated": false,
       "entities": {
-        "hashtags": [
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
           {
-            "text": "job",
+            "screen_name": "Macys",
+            "name": "Macy's",
+            "id": 50687788,
+            "id_str": "50687788",
             "indices": [
-              34,
-              38
-            ]
-          },
-          {
-            "text": "SanFrancisco",
-            "indices": [
-              42,
-              55
-            ]
-          },
-          {
-            "text": "IT",
-            "indices": [
-              85,
-              88
-            ]
-          },
-          {
-            "text": "Hiring",
-            "indices": [
-              89,
-              96
-            ]
-          },
-          {
-            "text": "CareerArc",
-            "indices": [
-              97,
-              107
+              7,
+              13
             ]
           }
         ],
-        "symbols": [],
-        "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/JqD5NPJMdI",
-            "expanded_url": "http://bit.ly/2h8yQDZ",
-            "display_url": "bit.ly/2h8yQDZ",
+            "url": "https://t.co/5os9w7p0L8",
+            "expanded_url": "https://www.swarmapp.com/c/eoLCa4EhsVm",
+            "display_url": "swarmapp.com/c/eoLCa4EhsVm",
             "indices": [
-              61,
-              84
+              35,
+              58
             ]
           }
         ]
@@ -62,249 +37,50 @@ window.dummyTweetsData = {
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://www.tweetmyjobs.com\" rel=\"nofollow\">TweetMyJOBS</a>",
+      "source": "<a href=\"http://foursquare.com\" rel=\"nofollow\">Foursquare</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 20827150,
-        "id_str": "20827150",
-        "name": "San Francisco IT Job",
-        "screen_name": "tmj_sfo_it",
+        "id": 45031194,
+        "id_str": "45031194",
+        "name": "Rose",
+        "screen_name": "sfROSE74",
         "location": "San Francisco, CA",
-        "description": "Follow this account for geo-targeted Software Dev. - General/IT job tweets in San Francisco, CA. Need help? Tweet us at @CareerArc!",
-        "url": "https://t.co/DByWt45HZj",
+        "description": "Tragically hilarious",
+        "url": null,
         "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/DByWt45HZj",
-                "expanded_url": "http://www.careerarc.com/job-seeker",
-                "display_url": "careerarc.com/job-seeker",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
           "description": {
             "urls": []
           }
         },
         "protected": false,
-        "followers_count": 821,
-        "friends_count": 359,
-        "listed_count": 231,
-        "created_at": "Sat Feb 14 02:46:00 +0000 2009",
-        "favourites_count": 0,
-        "utc_offset": -18000,
-        "time_zone": "Eastern Time (US & Canada)",
+        "followers_count": 435,
+        "friends_count": 380,
+        "listed_count": 68,
+        "created_at": "Fri Jun 05 23:41:04 +0000 2009",
+        "favourites_count": 1537,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 359,
+        "statuses_count": 30563,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "253956",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/315565691/Twitter-BG_2_bg-image.jpg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/315565691/Twitter-BG_2_bg-image.jpg",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/667125554395516928/6irWJWH2_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/667125554395516928/6irWJWH2_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/20827150/1447890103",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "407DB0",
-        "profile_text_color": "000000",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": {
-        "type": "Point",
-        "coordinates": [
-          37.7749295,
-          -122.4194155
-        ]
-      },
-      "coordinates": {
-        "type": "Point",
-        "coordinates": [
-          -122.4194155,
-          37.7749295
-        ]
-      },
-      "place": {
-        "id": "5a110d312052166f",
-        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
-        "place_type": "city",
-        "name": "San Francisco",
-        "full_name": "San Francisco, CA",
-        "country_code": "US",
-        "country": "United States",
-        "contained_within": [],
-        "bounding_box": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -122.514926,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.833238
-              ],
-              [
-                -122.514926,
-                37.833238
-              ]
-            ]
-          ]
-        },
-        "attributes": {}
-      },
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:21:41 +0000 2016",
-      "id": 805915072690200576,
-      "id_str": "805915072690200576",
-      "text": "Want to work at Sutter Health? We're #hiring in #SanFrancisco, CA! Click for details: https://t.co/yUswwLO9wE #Job #Marketing #Jobs",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "hiring",
-            "indices": [
-              37,
-              44
-            ]
-          },
-          {
-            "text": "SanFrancisco",
-            "indices": [
-              48,
-              61
-            ]
-          },
-          {
-            "text": "Job",
-            "indices": [
-              110,
-              114
-            ]
-          },
-          {
-            "text": "Marketing",
-            "indices": [
-              115,
-              125
-            ]
-          },
-          {
-            "text": "Jobs",
-            "indices": [
-              126,
-              131
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/yUswwLO9wE",
-            "expanded_url": "http://bit.ly/2dEtyR1",
-            "display_url": "bit.ly/2dEtyR1",
-            "indices": [
-              86,
-              109
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://tweetmyjobs.com\" rel=\"nofollow\">SafeTweet by TweetMyJOBS</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 718909165,
-        "id_str": "718909165",
-        "name": "Sutter Health Jobs",
-        "screen_name": "SutterJobs",
-        "location": "Northern California",
-        "description": "Looking for a job in #healthcare? Join our team! Follow tweets for the latest job openings across Sutter Health. Get Sutter Health news at @SutterHealth.",
-        "url": "http://t.co/7gbUGAaqw9",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "http://t.co/7gbUGAaqw9",
-                "expanded_url": "http://sutterhealth.org/employment",
-                "display_url": "sutterhealth.org/employment",
-                "indices": [
-                  0,
-                  22
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 476,
-        "friends_count": 22,
-        "listed_count": 509,
-        "created_at": "Thu Jul 26 22:35:29 +0000 2012",
-        "favourites_count": 5,
-        "utc_offset": -36000,
-        "time_zone": "Hawaii",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 1569,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/725376955332206592/I7anp9MH.jpg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/725376955332206592/I7anp9MH.jpg",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/739939897293709312/MRW70sjv_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/739939897293709312/MRW70sjv_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/718909165/1461778384",
-        "profile_link_color": "0084B4",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_background_color": "B2DFDA",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/85350832/twilk_background_4ba811fece4f4.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/85350832/twilk_background_4ba811fece4f4.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1140302297/meclose3_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1140302297/meclose3_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/45031194/1363059623",
+        "profile_link_color": "93A644",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "FFFFFF",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
         "has_extended_profile": false,
@@ -318,15 +94,15 @@ window.dummyTweetsData = {
       "geo": {
         "type": "Point",
         "coordinates": [
-          37.7749295,
-          -122.4194155
+          37.78685296,
+          -122.40721338
         ]
       },
       "coordinates": {
         "type": "Point",
         "coordinates": [
-          -122.4194155,
-          37.7749295
+          -122.40721338,
+          37.78685296
         ]
       },
       "place": {
@@ -373,43 +149,269 @@ window.dummyTweetsData = {
       "lang": "en"
     },
     {
-      "created_at": "Mon Dec 05 23:21:02 +0000 2016",
-      "id": 805914911368851456,
-      "id_str": "805914911368851456",
-      "text": "BackstageOrganics is pleased to announce our newest member of the GreenRoom Collective @ThirstyBearBrew #local… https://t.co/hHUj5zlajZ",
-      "truncated": true,
+      "created_at": "Tue Dec 06 03:41:43 +0000 2016",
+      "id": 805980512347189249,
+      "id_str": "805980512347189249",
+      "text": "I'm at City of San Francisco - @sfgov in San Francisco, CA https://t.co/GN0p67ndep",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "sfgov",
+            "name": "City of SanFrancisco",
+            "id": 16318114,
+            "id_str": "16318114",
+            "indices": [
+              31,
+              37
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/GN0p67ndep",
+            "expanded_url": "https://www.swarmapp.com/c/6IuaQLiUJhS",
+            "display_url": "swarmapp.com/c/6IuaQLiUJhS",
+            "indices": [
+              59,
+              82
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://foursquare.com\" rel=\"nofollow\">Foursquare</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 45031194,
+        "id_str": "45031194",
+        "name": "Rose",
+        "screen_name": "sfROSE74",
+        "location": "San Francisco, CA",
+        "description": "Tragically hilarious",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 435,
+        "friends_count": 380,
+        "listed_count": 68,
+        "created_at": "Fri Jun 05 23:41:04 +0000 2009",
+        "favourites_count": 1537,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 30563,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "B2DFDA",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/85350832/twilk_background_4ba811fece4f4.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/85350832/twilk_background_4ba811fece4f4.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1140302297/meclose3_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1140302297/meclose3_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/45031194/1363059623",
+        "profile_link_color": "93A644",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          37.77383561,
+          -122.41962433
+        ]
+      },
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -122.41962433,
+          37.77383561
+        ]
+      },
+      "place": {
+        "id": "5a110d312052166f",
+        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+        "place_type": "city",
+        "name": "San Francisco",
+        "full_name": "San Francisco, CA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -122.514926,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.833238
+              ],
+              [
+                -122.514926,
+                37.833238
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Dec 06 03:40:46 +0000 2016",
+      "id": 805980273762443264,
+      "id_str": "805980273762443264",
+      "text": "\"We've been doing this for 100 years. We're going to do it for 100 more.\" — @CecileRichards @PPFA #inforumSF https://t.co/LihypMy9jo",
+      "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "local",
+            "text": "inforumSF",
             "indices": [
-              104,
-              110
+              98,
+              108
             ]
           }
         ],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "ThirstyBearBrew",
-            "name": "ThirstyBear Brewing",
-            "id": 75168146,
-            "id_str": "75168146",
+            "screen_name": "CecileRichards",
+            "name": "Cecile Richards",
+            "id": 17011177,
+            "id_str": "17011177",
             "indices": [
-              87,
-              103
+              76,
+              91
+            ]
+          },
+          {
+            "screen_name": "PPFA",
+            "name": "Planned Parenthood",
+            "id": 402957663,
+            "id_str": "402957663",
+            "indices": [
+              92,
+              97
             ]
           }
         ],
-        "urls": [
+        "urls": [],
+        "media": [
           {
-            "url": "https://t.co/hHUj5zlajZ",
-            "expanded_url": "https://twitter.com/i/web/status/805914911368851456",
-            "display_url": "twitter.com/i/web/status/8…",
+            "id": 805980256452521984,
+            "id_str": "805980256452521984",
             "indices": [
-              112,
-              135
-            ]
+              109,
+              132
+            ],
+            "media_url": "http://pbs.twimg.com/media/Cy9qxeHUsAAUxGo.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Cy9qxeHUsAAUxGo.jpg",
+            "url": "https://t.co/LihypMy9jo",
+            "display_url": "pic.twitter.com/LihypMy9jo",
+            "expanded_url": "https://twitter.com/ohheypipes/status/805980273762443264/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 510,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 900,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 805980256452521984,
+            "id_str": "805980256452521984",
+            "indices": [
+              109,
+              132
+            ],
+            "media_url": "http://pbs.twimg.com/media/Cy9qxeHUsAAUxGo.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Cy9qxeHUsAAUxGo.jpg",
+            "url": "https://t.co/LihypMy9jo",
+            "display_url": "pic.twitter.com/LihypMy9jo",
+            "expanded_url": "https://twitter.com/ohheypipes/status/805980273762443264/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 510,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 900,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
           }
         ]
       },
@@ -424,20 +426,20 @@ window.dummyTweetsData = {
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 46197495,
-        "id_str": "46197495",
-        "name": "isnesspro",
-        "screen_name": "isnesspro",
-        "location": "San Francisco, CA",
-        "description": "IsnessPro Backstage Organics -Greening The GreenRoom Supporting Regenerative Agriculture - Sourcing from Local Beyond Organic Farms -Backstage Holistic Healing",
-        "url": "https://t.co/ki6Z1WOsWP",
+        "id": 19245856,
+        "id_str": "19245856",
+        "name": "Piper Loyd",
+        "screen_name": "ohheypipes",
+        "location": "Oakland, CA",
+        "description": "I'm typically very color coordinated. \n\nMarketing at @IDEO + @ideofutures.",
+        "url": "https://t.co/gao5agPK7t",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/ki6Z1WOsWP",
-                "expanded_url": "http://www.backstageorganics.org",
-                "display_url": "backstageorganics.org",
+                "url": "https://t.co/gao5agPK7t",
+                "expanded_url": "http://www.piperloyd.com",
+                "display_url": "piperloyd.com",
                 "indices": [
                   0,
                   23
@@ -450,31 +452,31 @@ window.dummyTweetsData = {
           }
         },
         "protected": false,
-        "followers_count": 619,
-        "friends_count": 59,
-        "listed_count": 94,
-        "created_at": "Wed Jun 10 19:14:20 +0000 2009",
-        "favourites_count": 40359,
+        "followers_count": 1148,
+        "friends_count": 981,
+        "listed_count": 41,
+        "created_at": "Tue Jan 20 17:19:45 +0000 2009",
+        "favourites_count": 953,
         "utc_offset": -28800,
         "time_zone": "Pacific Time (US & Canada)",
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 6396,
+        "statuses_count": 1970,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "022330",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555284611807195138/PIlIdABh.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555284611807195138/PIlIdABh.jpeg",
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/596819083296813057/tCDtPNmf.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/596819083296813057/tCDtPNmf.png",
         "profile_background_tile": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/795713899005779968/B3U52joA_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/795713899005779968/B3U52joA_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/46197495/1480408134",
-        "profile_link_color": "DFE0CC",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "C0DFEC",
-        "profile_text_color": "333333",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/694557141403742208/0E3qDbUm_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/694557141403742208/0E3qDbUm_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/19245856/1454618762",
+        "profile_link_color": "FF3300",
+        "profile_sidebar_border_color": "181A1E",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
         "profile_use_background_image": true,
         "has_extended_profile": false,
         "default_profile": false,
@@ -487,11 +489,11 @@ window.dummyTweetsData = {
       "geo": null,
       "coordinates": null,
       "place": {
-        "id": "07d9dafee5487000",
-        "url": "https://api.twitter.com/1.1/geo/id/07d9dafee5487000.json",
+        "id": "091e77876d167000",
+        "url": "https://api.twitter.com/1.1/geo/id/091e77876d167000.json",
         "place_type": "poi",
-        "name": "ThirstyBear Brewing Company",
-        "full_name": "ThirstyBear Brewing Company",
+        "name": "herbst theater",
+        "full_name": "herbst theater",
         "country_code": "US",
         "country": "United States",
         "contained_within": [],
@@ -500,20 +502,472 @@ window.dummyTweetsData = {
           "coordinates": [
             [
               [
-                -122.39967404803575,
-                37.78555979757354
+                -122.420897,
+                37.779479
               ],
               [
-                -122.39967404803575,
-                37.78555979757354
+                -122.420897,
+                37.779479
               ],
               [
-                -122.39967404803575,
-                37.78555979757354
+                -122.420897,
+                37.779479
               ],
               [
-                -122.39967404803575,
-                37.78555979757354
+                -122.420897,
+                37.779479
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Dec 06 03:39:32 +0000 2016",
+      "id": 805979966219415552,
+      "id_str": "805979966219415552",
+      "text": "It's [finally] beginning to look a lot like Christmas 🙏🏼🎄❤️ @ Palace Hotel San Francisco, A… https://t.co/Uj9XpylP8G",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Uj9XpylP8G",
+            "expanded_url": "https://www.instagram.com/p/BNqTHf9DlDx/",
+            "display_url": "instagram.com/p/BNqTHf9DlDx/",
+            "indices": [
+              93,
+              116
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 83927943,
+        "id_str": "83927943",
+        "name": "Crystal Simile",
+        "screen_name": "CrystalSimile",
+        "location": "SF ☀️",
+        "description": "Close your eyes and chase your dreams.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 636,
+        "friends_count": 553,
+        "listed_count": 17,
+        "created_at": "Tue Oct 20 21:19:29 +0000 2009",
+        "favourites_count": 4614,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 16720,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "59472F",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/739556369/b47c2e58ec5ec38edf1310ebc4153a7c.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/739556369/b47c2e58ec5ec38edf1310ebc4153a7c.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/775917656943702016/Ic9oWoN8_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/775917656943702016/Ic9oWoN8_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/83927943/1414942342",
+        "profile_link_color": "7FDBB6",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "061127",
+        "profile_text_color": "52555C",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          37.78805682,
+          -122.40184154
+        ]
+      },
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -122.40184154,
+          37.78805682
+        ]
+      },
+      "place": {
+        "id": "5a110d312052166f",
+        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+        "place_type": "city",
+        "name": "San Francisco",
+        "full_name": "San Francisco, CA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -122.514926,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.833238
+              ],
+              [
+                -122.514926,
+                37.833238
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Dec 06 03:38:59 +0000 2016",
+      "id": 805979827299876865,
+      "id_str": "805979827299876865",
+      "text": "✨LBD✨is always the perfect choice! Shop HipKnoTies👗convertible apparel and save 30% sitewide,… https://t.co/THGrAt2qV5",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/THGrAt2qV5",
+            "expanded_url": "https://www.instagram.com/p/BNqTDf9gyjH/",
+            "display_url": "instagram.com/p/BNqTDf9gyjH/",
+            "indices": [
+              95,
+              118
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 354113337,
+        "id_str": "354113337",
+        "name": "HIPKNOTIES.com",
+        "screen_name": "Hipknoties",
+        "location": "",
+        "description": "The must-have convertible wrap dress that is easily styled into 30 ways to flatter your shape and lifestyle. Always fits. Never out of fashion.",
+        "url": "http://t.co/fBSAH4R2HC",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/fBSAH4R2HC",
+                "expanded_url": "http://hipknoties.com",
+                "display_url": "hipknoties.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2849,
+        "friends_count": 450,
+        "listed_count": 48,
+        "created_at": "Sat Aug 13 04:38:33 +0000 2011",
+        "favourites_count": 1849,
+        "utc_offset": -25200,
+        "time_zone": "Arizona",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5769,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EC028D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000058010193/387cd35258697492519d9fe38cf3516b.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000058010193/387cd35258697492519d9fe38cf3516b.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000508841281/270db31a46962299ab66f660fc99e87f_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000508841281/270db31a46962299ab66f660fc99e87f_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/354113337/1410024942",
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          37.775,
+          -122.418
+        ]
+      },
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -122.418,
+          37.775
+        ]
+      },
+      "place": {
+        "id": "5a110d312052166f",
+        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+        "place_type": "city",
+        "name": "San Francisco",
+        "full_name": "San Francisco, CA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -122.514926,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.833238
+              ],
+              [
+                -122.514926,
+                37.833238
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Dec 06 03:37:11 +0000 2016",
+      "id": 805979371567808512,
+      "id_str": "805979371567808512",
+      "text": "A #cablecar ride on a ☀️ day in #sanfrancisco is truly a classic. @ Chinatown https://t.co/x8foWkPfVe",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "cablecar",
+            "indices": [
+              2,
+              11
+            ]
+          },
+          {
+            "text": "sanfrancisco",
+            "indices": [
+              32,
+              45
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/x8foWkPfVe",
+            "expanded_url": "https://www.instagram.com/p/BNqS2P7g8P_/",
+            "display_url": "instagram.com/p/BNqS2P7g8P_/",
+            "indices": [
+              78,
+              101
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 92453956,
+        "id_str": "92453956",
+        "name": "Hai Tu",
+        "screen_name": "haionvacay",
+        "location": "San Francisco, CA",
+        "description": "A collection of my daydreaming about my travel adventures. San Francisco based. Travel often.",
+        "url": "https://t.co/pz0zEWjPl3",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/pz0zEWjPl3",
+                "expanded_url": "http://htfotography.me",
+                "display_url": "htfotography.me",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 34,
+        "friends_count": 34,
+        "listed_count": 18,
+        "created_at": "Wed Nov 25 05:23:04 +0000 2009",
+        "favourites_count": 46,
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 2848,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654545911129882624/Y86nPjCc_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654545911129882624/Y86nPjCc_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/92453956/1444891220",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "A8C7F7",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          37.79491793,
+          -122.40659617
+        ]
+      },
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -122.40659617,
+          37.79491793
+        ]
+      },
+      "place": {
+        "id": "5a110d312052166f",
+        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+        "place_type": "city",
+        "name": "San Francisco",
+        "full_name": "San Francisco, CA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -122.514926,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.708075
+              ],
+              [
+                -122.357031,
+                37.833238
+              ],
+              [
+                -122.514926,
+                37.833238
               ]
             ]
           ]
@@ -530,301 +984,10 @@ window.dummyTweetsData = {
       "lang": "en"
     },
     {
-      "created_at": "Mon Dec 05 23:20:25 +0000 2016",
-      "id": 805914754124431360,
-      "id_str": "805914754124431360",
-      "text": "@MainStLaunch thank you for the shoutout!",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "MainStLaunch",
-            "name": "Main Street Launch",
-            "id": 211662254,
-            "id_str": "211662254",
-            "indices": [
-              0,
-              13
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": 805866132985016320,
-      "in_reply_to_status_id_str": "805866132985016320",
-      "in_reply_to_user_id": 211662254,
-      "in_reply_to_user_id_str": "211662254",
-      "in_reply_to_screen_name": "MainStLaunch",
-      "user": {
-        "id": 2799066289,
-        "id_str": "2799066289",
-        "name": "Pampalasa",
-        "screen_name": "pampalasa_sf",
-        "location": "SOMA, San Francisco",
-        "description": "Modern Filipino American cuisine.  The premiere spot for Kamayan Dinners in downtown San Francisco.",
-        "url": "https://t.co/MWGgDaBt44",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/MWGgDaBt44",
-                "expanded_url": "http://www.pampalasa.com",
-                "display_url": "pampalasa.com",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 103,
-        "friends_count": 71,
-        "listed_count": 6,
-        "created_at": "Tue Sep 09 02:20:19 +0000 2014",
-        "favourites_count": 7,
-        "utc_offset": -28800,
-        "time_zone": "Pacific Time (US & Canada)",
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 145,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/798980260247130113/f3LEWJfB_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/798980260247130113/f3LEWJfB_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2799066289/1432532767",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:20:06 +0000 2016",
-      "id": 805914676219387904,
-      "id_str": "805914676219387904",
-      "text": "RT @chu_bands: How would you feel if u felt death approaching you",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "chu_bands",
-            "name": "GlueGang#6",
-            "id": 1445582940,
-            "id_str": "1445582940",
-            "indices": [
-              3,
-              13
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 4240598119,
-        "id_str": "4240598119",
-        "name": "TorryWorldCrazy❗️",
-        "screen_name": "OnTiipDuwop",
-        "location": "WestPittsburg ",
-        "description": "TORRYWORLDCRAZY PistolGang WayneWorld 1️⃣1️⃣0️⃣",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 236,
-        "friends_count": 172,
-        "listed_count": 1,
-        "created_at": "Sun Nov 15 01:41:23 +0000 2015",
-        "favourites_count": 1233,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 1356,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/738088575363735552/-P_7iauS_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/738088575363735552/-P_7iauS_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4240598119/1471842773",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Mon Dec 05 23:19:53 +0000 2016",
-        "id": 805914621177532416,
-        "id_str": "805914621177532416",
-        "text": "How would you feel if u felt death approaching you",
-        "truncated": false,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": []
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 1445582940,
-          "id_str": "1445582940",
-          "name": "GlueGang#6",
-          "screen_name": "chu_bands",
-          "location": "Hayes Valley, San Francisco",
-          "description": "Hayes Valley , CA",
-          "url": "https://t.co/bsL4HPEnyc",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/bsL4HPEnyc",
-                  "expanded_url": "http://4L.com",
-                  "display_url": "4L.com",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 1942,
-          "friends_count": 998,
-          "listed_count": 2,
-          "created_at": "Tue May 21 06:19:50 +0000 2013",
-          "favourites_count": 6960,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": false,
-          "statuses_count": 82046,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1445582940/1479869112",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": true,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 0,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 1,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:19:53 +0000 2016",
-      "id": 805914621177532416,
-      "id_str": "805914621177532416",
-      "text": "How would you feel if u felt death approaching you",
+      "created_at": "Tue Dec 06 03:37:02 +0000 2016",
+      "id": 805979335467225088,
+      "id_str": "805979335467225088",
+      "text": "Niggas be shopping off ally express smh",
       "truncated": false,
       "entities": {
         "hashtags": [],
@@ -871,14 +1034,14 @@ window.dummyTweetsData = {
         "protected": false,
         "followers_count": 1942,
         "friends_count": 998,
-        "listed_count": 2,
+        "listed_count": 3,
         "created_at": "Tue May 21 06:19:50 +0000 2013",
-        "favourites_count": 6960,
+        "favourites_count": 6967,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 82046,
+        "statuses_count": 82051,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
@@ -908,25 +1071,32 @@ window.dummyTweetsData = {
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 1,
+      "retweet_count": 0,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "en"
     },
     {
-      "created_at": "Mon Dec 05 23:19:37 +0000 2016",
-      "id": 805914553787613185,
-      "id_str": "805914553787613185",
-      "text": "Join the Ghirardelli team! See our latest #job opening here: https://t.co/cyH7QbxNrG #CustomerService #SanFrancisco… https://t.co/oDRT2sD2n8",
-      "truncated": true,
+      "created_at": "Tue Dec 06 03:34:43 +0000 2016",
+      "id": 805978750286381056,
+      "id_str": "805978750286381056",
+      "text": "Can you recommend anyone for this #job in #SanFrancisco, CA? https://t.co/Ir54BZt8uC #CustomerService #Hiring https://t.co/8v5I1r5hsf",
+      "truncated": false,
       "entities": {
         "hashtags": [
           {
             "text": "job",
             "indices": [
+              34,
+              38
+            ]
+          },
+          {
+            "text": "SanFrancisco",
+            "indices": [
               42,
-              46
+              55
             ]
           },
           {
@@ -937,10 +1107,10 @@ window.dummyTweetsData = {
             ]
           },
           {
-            "text": "SanFrancisco",
+            "text": "Hiring",
             "indices": [
               102,
-              115
+              109
             ]
           }
         ],
@@ -948,22 +1118,91 @@ window.dummyTweetsData = {
         "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/cyH7QbxNrG",
-            "expanded_url": "http://bit.ly/2gbqheP",
-            "display_url": "bit.ly/2gbqheP",
+            "url": "https://t.co/Ir54BZt8uC",
+            "expanded_url": "http://bit.ly/2guxcjI",
+            "display_url": "bit.ly/2guxcjI",
             "indices": [
               61,
               84
             ]
-          },
+          }
+        ],
+        "media": [
           {
-            "url": "https://t.co/oDRT2sD2n8",
-            "expanded_url": "https://twitter.com/i/web/status/805914553787613185",
-            "display_url": "twitter.com/i/web/status/8…",
+            "id": 805978748486983680,
+            "id_str": "805978748486983680",
             "indices": [
-              117,
-              140
-            ]
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/media/Cy9pZsgUoAAka_W.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Cy9pZsgUoAAka_W.jpg",
+            "url": "https://t.co/8v5I1r5hsf",
+            "display_url": "pic.twitter.com/8v5I1r5hsf",
+            "expanded_url": "https://twitter.com/ghirardellijobs/status/805978750286381056/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 378,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 921,
+                "h": 512,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 921,
+                "h": 512,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 805978748486983680,
+            "id_str": "805978748486983680",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/media/Cy9pZsgUoAAka_W.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Cy9pZsgUoAAka_W.jpg",
+            "url": "https://t.co/8v5I1r5hsf",
+            "display_url": "pic.twitter.com/8v5I1r5hsf",
+            "expanded_url": "https://twitter.com/ghirardellijobs/status/805978750286381056/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 378,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 921,
+                "h": 512,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 921,
+                "h": 512,
+                "resize": "fit"
+              }
+            }
           }
         ]
       },
@@ -1006,14 +1245,14 @@ window.dummyTweetsData = {
         "protected": false,
         "followers_count": 78,
         "friends_count": 1,
-        "listed_count": 289,
+        "listed_count": 291,
         "created_at": "Tue Dec 03 22:40:16 +0000 2013",
         "favourites_count": 0,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 75,
+        "statuses_count": 74,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
@@ -1096,837 +1335,34 @@ window.dummyTweetsData = {
       "lang": "en"
     },
     {
-      "created_at": "Mon Dec 05 23:18:44 +0000 2016",
-      "id": 805914329631444993,
-      "id_str": "805914329631444993",
-      "text": "RT @chu_bands: Rest In Peace nondo Ima keep it lit ‼️",
+      "created_at": "Tue Dec 06 03:34:40 +0000 2016",
+      "id": 805978740803117058,
+      "id_str": "805978740803117058",
+      "text": "Trying this again, hopefully this time without gun threats (@ AMC Metreon 16 - @amctheatres for Arrival) https://t.co/hiNihAF669",
       "truncated": false,
       "entities": {
         "hashtags": [],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "chu_bands",
-            "name": "GlueGang#6",
-            "id": 1445582940,
-            "id_str": "1445582940",
+            "screen_name": "AMCTheatres",
+            "name": "AMC Theatres",
+            "id": 40245758,
+            "id_str": "40245758",
             "indices": [
-              3,
-              13
+              79,
+              91
             ]
           }
         ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 2377887775,
-        "id_str": "2377887775",
-        "name": "Court🤑",
-        "screen_name": "TorryCourt",
-        "location": "",
-        "description": "torry❤️",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 399,
-        "friends_count": 368,
-        "listed_count": 0,
-        "created_at": "Sat Mar 08 00:57:50 +0000 2014",
-        "favourites_count": 681,
-        "utc_offset": -28800,
-        "time_zone": "Tijuana",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 5732,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/785225560502829056/DxvcaBgn_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/785225560502829056/DxvcaBgn_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2377887775/1432778493",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Mon Dec 05 23:08:08 +0000 2016",
-        "id": 805911665761927169,
-        "id_str": "805911665761927169",
-        "text": "Rest In Peace nondo Ima keep it lit ‼️",
-        "truncated": false,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": []
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 1445582940,
-          "id_str": "1445582940",
-          "name": "GlueGang#6",
-          "screen_name": "chu_bands",
-          "location": "Hayes Valley, San Francisco",
-          "description": "Hayes Valley , CA",
-          "url": "https://t.co/bsL4HPEnyc",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/bsL4HPEnyc",
-                  "expanded_url": "http://4L.com",
-                  "display_url": "4L.com",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 1942,
-          "friends_count": 998,
-          "listed_count": 2,
-          "created_at": "Tue May 21 06:19:50 +0000 2013",
-          "favourites_count": 6960,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": false,
-          "statuses_count": 82046,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1445582940/1479869112",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": true,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 1,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 1,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:17:41 +0000 2016",
-      "id": 805914068238286851,
-      "id_str": "805914068238286851",
-      "text": "@IveZelly I taught you how to rap like that",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "IveZelly",
-            "name": "GTA DOOWOP",
-            "id": 3395618059,
-            "id_str": "3395618059",
-            "indices": [
-              0,
-              9
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": 805913884099952640,
-      "in_reply_to_status_id_str": "805913884099952640",
-      "in_reply_to_user_id": 3395618059,
-      "in_reply_to_user_id_str": "3395618059",
-      "in_reply_to_screen_name": "IveZelly",
-      "user": {
-        "id": 1445582940,
-        "id_str": "1445582940",
-        "name": "GlueGang#6",
-        "screen_name": "chu_bands",
-        "location": "Hayes Valley, San Francisco",
-        "description": "Hayes Valley , CA",
-        "url": "https://t.co/bsL4HPEnyc",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bsL4HPEnyc",
-                "expanded_url": "http://4L.com",
-                "display_url": "4L.com",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1942,
-        "friends_count": 998,
-        "listed_count": 2,
-        "created_at": "Tue May 21 06:19:50 +0000 2013",
-        "favourites_count": 6960,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 82046,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1445582940/1479869112",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 1,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:17:06 +0000 2016",
-      "id": 805913918870695936,
-      "id_str": "805913918870695936",
-      "text": "We're #hiring! Read about our latest #job opening here: Nursing Assistant - https://t.co/5nm5Tc9c2L #Nursing #SanFrancisco, CA #Veterans",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "hiring",
-            "indices": [
-              6,
-              13
-            ]
-          },
-          {
-            "text": "job",
-            "indices": [
-              37,
-              41
-            ]
-          },
-          {
-            "text": "Nursing",
-            "indices": [
-              100,
-              108
-            ]
-          },
-          {
-            "text": "SanFrancisco",
-            "indices": [
-              109,
-              122
-            ]
-          },
-          {
-            "text": "Veterans",
-            "indices": [
-              127,
-              136
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/5nm5Tc9c2L",
-            "expanded_url": "http://bit.ly/2cSyoMq",
-            "display_url": "bit.ly/2cSyoMq",
-            "indices": [
-              76,
-              99
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://www.tweetmyjobs.com\" rel=\"nofollow\">TweetMyJOBS</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 22148043,
-        "id_str": "22148043",
-        "name": "TMJ-SFO Nursing Jobs",
-        "screen_name": "tmj_sfo_nursing",
-        "location": "San Francisco, CA",
-        "description": "Follow this account for geo-targeted Healthcare-Nursing job tweets in San Francisco, CA. Need help? Tweet us at @CareerArc!",
-        "url": "https://t.co/DByWt45HZj",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/DByWt45HZj",
-                "expanded_url": "http://www.careerarc.com/job-seeker",
-                "display_url": "careerarc.com/job-seeker",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 547,
-        "friends_count": 332,
-        "listed_count": 145,
-        "created_at": "Fri Feb 27 15:05:45 +0000 2009",
-        "favourites_count": 0,
-        "utc_offset": -18000,
-        "time_zone": "Eastern Time (US & Canada)",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 900,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "253956",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/315550139/Twitter-BG_2_bg-image.jpg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/315550139/Twitter-BG_2_bg-image.jpg",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/667619682690596864/DiWVU_ra_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/667619682690596864/DiWVU_ra_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/22148043/1448007912",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "407DB0",
-        "profile_text_color": "000000",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": {
-        "type": "Point",
-        "coordinates": [
-          37.7749295,
-          -122.4194155
-        ]
-      },
-      "coordinates": {
-        "type": "Point",
-        "coordinates": [
-          -122.4194155,
-          37.7749295
-        ]
-      },
-      "place": {
-        "id": "5a110d312052166f",
-        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
-        "place_type": "city",
-        "name": "San Francisco",
-        "full_name": "San Francisco, CA",
-        "country_code": "US",
-        "country": "United States",
-        "contained_within": [],
-        "bounding_box": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -122.514926,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.833238
-              ],
-              [
-                -122.514926,
-                37.833238
-              ]
-            ]
-          ]
-        },
-        "attributes": {}
-      },
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:16:24 +0000 2016",
-      "id": 805913744756723712,
-      "id_str": "805913744756723712",
-      "text": "If you're looking for work in #SanFrancisco, CA, check out this #job: https://t.co/SRXJUoSDr0 #Accounting #Hiring #CareerArc",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "SanFrancisco",
-            "indices": [
-              30,
-              43
-            ]
-          },
-          {
-            "text": "job",
-            "indices": [
-              64,
-              68
-            ]
-          },
-          {
-            "text": "Accounting",
-            "indices": [
-              94,
-              105
-            ]
-          },
-          {
-            "text": "Hiring",
-            "indices": [
-              106,
-              113
-            ]
-          },
-          {
-            "text": "CareerArc",
-            "indices": [
-              114,
-              124
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/SRXJUoSDr0",
-            "expanded_url": "http://bit.ly/2cRFe0w",
-            "display_url": "bit.ly/2cRFe0w",
-            "indices": [
-              70,
-              93
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://www.tweetmyjobs.com\" rel=\"nofollow\">TweetMyJOBS</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 23226635,
-        "id_str": "23226635",
-        "name": "TMJ-SFO Acct. Jobs",
-        "screen_name": "tmj_sfo_acct",
-        "location": "San Francisco, CA",
-        "description": "Follow this account for geo-targeted Accounting job tweets in San Francisco, CA. Need help? Tweet us at @CareerArc!",
-        "url": "https://t.co/DByWt4njnT",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/DByWt4njnT",
-                "expanded_url": "http://www.careerarc.com/job-seeker",
-                "display_url": "careerarc.com/job-seeker",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 451,
-        "friends_count": 324,
-        "listed_count": 139,
-        "created_at": "Sat Mar 07 19:44:46 +0000 2009",
-        "favourites_count": 0,
-        "utc_offset": -18000,
-        "time_zone": "Eastern Time (US & Canada)",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 272,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "253956",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/315525977/Twitter-BG_2_bg-image.jpg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/315525977/Twitter-BG_2_bg-image.jpg",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/669078572812791808/u5halxbS_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/669078572812791808/u5halxbS_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/23226635/1448355738",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "407DB0",
-        "profile_text_color": "000000",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": {
-        "type": "Point",
-        "coordinates": [
-          37.7749295,
-          -122.4194155
-        ]
-      },
-      "coordinates": {
-        "type": "Point",
-        "coordinates": [
-          -122.4194155,
-          37.7749295
-        ]
-      },
-      "place": {
-        "id": "5a110d312052166f",
-        "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
-        "place_type": "city",
-        "name": "San Francisco",
-        "full_name": "San Francisco, CA",
-        "country_code": "US",
-        "country": "United States",
-        "contained_within": [],
-        "bounding_box": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -122.514926,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.708075
-              ],
-              [
-                -122.357031,
-                37.833238
-              ],
-              [
-                -122.514926,
-                37.833238
-              ]
-            ]
-          ]
-        },
-        "attributes": {}
-      },
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:15:13 +0000 2016",
-      "id": 805913447326064640,
-      "id_str": "805913447326064640",
-      "text": "@IveZelly @ReckLO223 you was going crazy lil bro",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "IveZelly",
-            "name": "GTA DOOWOP",
-            "id": 3395618059,
-            "id_str": "3395618059",
-            "indices": [
-              0,
-              9
-            ]
-          },
-          {
-            "screen_name": "ReckLO223",
-            "name": "GTA Jchop 23",
-            "id": 2905390753,
-            "id_str": "2905390753",
-            "indices": [
-              10,
-              20
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": 805913108837343233,
-      "in_reply_to_status_id_str": "805913108837343233",
-      "in_reply_to_user_id": 3395618059,
-      "in_reply_to_user_id_str": "3395618059",
-      "in_reply_to_screen_name": "IveZelly",
-      "user": {
-        "id": 1445582940,
-        "id_str": "1445582940",
-        "name": "GlueGang#6",
-        "screen_name": "chu_bands",
-        "location": "Hayes Valley, San Francisco",
-        "description": "Hayes Valley , CA",
-        "url": "https://t.co/bsL4HPEnyc",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bsL4HPEnyc",
-                "expanded_url": "http://4L.com",
-                "display_url": "4L.com",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1942,
-        "friends_count": 998,
-        "listed_count": 2,
-        "created_at": "Tue May 21 06:19:50 +0000 2013",
-        "favourites_count": 6960,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 82046,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/775760146391666690/nemkjAq-_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1445582940/1479869112",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 1,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Mon Dec 05 23:15:10 +0000 2016",
-      "id": 805913433530986496,
-      "id_str": "805913433530986496",
-      "text": "Can you recommend anyone for this #job in #SanFrancisco, California? https://t.co/DtOuSMcRt5 #internship #Hiring #CareerArc",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "job",
-            "indices": [
-              34,
-              38
-            ]
-          },
-          {
-            "text": "SanFrancisco",
-            "indices": [
-              42,
-              55
-            ]
-          },
-          {
-            "text": "internship",
-            "indices": [
-              93,
-              104
-            ]
-          },
-          {
-            "text": "Hiring",
+            "url": "https://t.co/hiNihAF669",
+            "expanded_url": "https://www.swarmapp.com/c/6OKjnzKNff8",
+            "display_url": "swarmapp.com/c/6OKjnzKNff8",
             "indices": [
               105,
-              112
-            ]
-          },
-          {
-            "text": "CareerArc",
-            "indices": [
-              113,
-              123
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/DtOuSMcRt5",
-            "expanded_url": "http://bit.ly/1ejDcWZ",
-            "display_url": "bit.ly/1ejDcWZ",
-            "indices": [
-              69,
-              92
+              128
             ]
           }
         ]
@@ -1935,30 +1371,30 @@ window.dummyTweetsData = {
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://www.tweetmyjobs.com\" rel=\"nofollow\">TweetMyJOBS</a>",
+      "source": "<a href=\"http://foursquare.com\" rel=\"nofollow\">Foursquare</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 154655726,
-        "id_str": "154655726",
-        "name": "TMJ-SFO Intern Jobs",
-        "screen_name": "tmj_SFO_intern",
-        "location": "San Francisco, CA",
-        "description": "Follow this account for geo-targeted Internships job tweets in San Francisco, CA. Need help? Tweet us at @CareerArc!",
-        "url": "https://t.co/DByWt45HZj",
+        "id": 18380768,
+        "id_str": "18380768",
+        "name": "Julia Ma",
+        "screen_name": "joulesm",
+        "location": "Earth (for now)",
+        "description": "engineer by day, glass artist by night",
+        "url": "http://t.co/rkWXxpP8Av",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/DByWt45HZj",
-                "expanded_url": "http://www.careerarc.com/job-seeker",
-                "display_url": "careerarc.com/job-seeker",
+                "url": "http://t.co/rkWXxpP8Av",
+                "expanded_url": "http://joulesm.com",
+                "display_url": "joulesm.com",
                 "indices": [
                   0,
-                  23
+                  22
                 ]
               }
             ]
@@ -1968,31 +1404,30 @@ window.dummyTweetsData = {
           }
         },
         "protected": false,
-        "followers_count": 367,
-        "friends_count": 285,
-        "listed_count": 75,
-        "created_at": "Fri Jun 11 21:17:54 +0000 2010",
-        "favourites_count": 0,
-        "utc_offset": -18000,
-        "time_zone": "Quito",
+        "followers_count": 441,
+        "friends_count": 403,
+        "listed_count": 35,
+        "created_at": "Thu Dec 25 23:21:06 +0000 2008",
+        "favourites_count": 164,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 41,
+        "statuses_count": 7470,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "253956",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/315353314/Twitter-BG_2_bg-image.jpg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/315353314/Twitter-BG_2_bg-image.jpg",
+        "profile_background_color": "EBEBEB",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/711286682859937792/l-kk6DG2_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/711286682859937792/l-kk6DG2_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/154655726/1458418936",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "407DB0",
-        "profile_text_color": "000000",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000341260598/92b62163f4e217756853e2e28d821828_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000341260598/92b62163f4e217756853e2e28d821828_normal.jpeg",
+        "profile_link_color": "990000",
+        "profile_sidebar_border_color": "DFDFDF",
+        "profile_sidebar_fill_color": "F3F3F3",
+        "profile_text_color": "333333",
         "profile_use_background_image": true,
         "has_extended_profile": false,
         "default_profile": false,
@@ -2005,15 +1440,15 @@ window.dummyTweetsData = {
       "geo": {
         "type": "Point",
         "coordinates": [
-          37.7820492,
-          -122.4040513
+          37.78457546,
+          -122.40323635
         ]
       },
       "coordinates": {
         "type": "Point",
         "coordinates": [
-          -122.4040513,
-          37.7820492
+          -122.40323635,
+          37.78457546
         ]
       },
       "place": {
@@ -2057,15 +1492,173 @@ window.dummyTweetsData = {
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Dec 06 03:32:28 +0000 2016",
+      "id": 805978184030113792,
+      "id_str": "805978184030113792",
+      "text": "@TwistNHook @AGuyNamedNam @atomsareenough LOL I just remembered I have a Lyft coupon too, maybe I can go home with it",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "TwistNHook",
+            "name": "TwistNHook",
+            "id": 2608766300,
+            "id_str": "2608766300",
+            "indices": [
+              0,
+              11
+            ]
+          },
+          {
+            "screen_name": "AGuyNamedNam",
+            "name": "Nam Le 📎",
+            "id": 1681923170,
+            "id_str": "1681923170",
+            "indices": [
+              12,
+              25
+            ]
+          },
+          {
+            "screen_name": "atomsareenough",
+            "name": "atoms are enough",
+            "id": 18757219,
+            "id_str": "18757219",
+            "indices": [
+              26,
+              41
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+      "in_reply_to_status_id": 805977983735369728,
+      "in_reply_to_status_id_str": "805977983735369728",
+      "in_reply_to_user_id": 2608766300,
+      "in_reply_to_user_id_str": "2608766300",
+      "in_reply_to_screen_name": "TwistNHook",
+      "user": {
+        "id": 30943190,
+        "id_str": "30943190",
+        "name": "Gustav N. Davila",
+        "screen_name": "NikJamTheMan",
+        "location": "A's 148 Raiders 319 Cal QQ/9",
+        "description": "Cal alum, Academy of Art IP. Game designer and music composer. Sports fan: Raiders, Sharks, A's, Warriors, Cal, Quakes. @GoldenBlogs writer. #BlackLivesMatter",
+        "url": "https://t.co/t1f5lJqcdC",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/t1f5lJqcdC",
+                "expanded_url": "http://www.nikjam.net",
+                "display_url": "nikjam.net",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 950,
+        "friends_count": 868,
+        "listed_count": 66,
+        "created_at": "Mon Apr 13 19:54:57 +0000 2009",
+        "favourites_count": 985,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 72928,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/27660429/aliensattack2.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/27660429/aliensattack2.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/778474189841760257/YHwhOmWj_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/778474189841760257/YHwhOmWj_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/30943190/1423622745",
+        "profile_link_color": "ABC0C7",
+        "profile_sidebar_border_color": "181A1E",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "5c92ab5379de3839",
+        "url": "https://api.twitter.com/1.1/geo/id/5c92ab5379de3839.json",
+        "place_type": "neighborhood",
+        "name": "South Beach",
+        "full_name": "South Beach, San Francisco",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -122.401378,
+                37.7776245
+              ],
+              [
+                -122.3809835,
+                37.7776245
+              ],
+              [
+                -122.3809835,
+                37.798014
+              ],
+              [
+                -122.401378,
+                37.798014
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
       "lang": "en"
     }
   ],
   "search_metadata": {
-    "completed_in": 0.043,
-    "max_id": 805915074749558785,
-    "max_id_str": "805915074749558785",
+    "completed_in": 0.09,
+    "max_id": 805980558731988996,
+    "max_id_str": "805980558731988996",
     "query": "%22+%22",
-    "refresh_url": "?since_id=805915074749558785&q=%22%20%22&geocode=37.7836727%2C-122.4090313%2C1mi&include_entities=1",
+    "refresh_url": "?since_id=805980558731988996&q=%22%20%22&geocode=37.783709%2C-122.40905090000001%2C1mi&include_entities=1",
     "count": 15,
     "since_id": 0,
     "since_id_str": "0"
