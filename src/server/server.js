@@ -8,10 +8,13 @@ app.listen(1337, function() {
 });
 
 // Serve up static files in the public directory
-app.use('/public', express.static(path.join(__dirname, '/../client/public')));
+app.use('/src/client/public/', express.static(path.join(__dirname, '/../client/public')));
+
+// Serve up dummy data
+app.use('/src/client/', express.static(path.join(__dirname, '/../client')));
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/../client/index.html'));
+  res.sendFile(path.join(__dirname, '/../../index.html'));
 });
 
 module.exports = app;
