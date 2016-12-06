@@ -1,19 +1,20 @@
 /* ALL CREDIT FOR THIS ALGORITHM GOES TO:::
  * http://stackoverflow.com/questions/14560999/using-the-haversine-formula-in-javascript
 */
+
+// Helper function to round to two decimals
+var _round = (value, decimals) => {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+};
+
 var calcDist = (coordA, coordB) => {
   if (coordB === null) {
-    return 'Somewhere nearby';
+    return 'Hidden';
   }
 
   // Helper function for converting coords to radians
   Number.prototype.toRad = function() {
    return this * Math.PI / 180;
-  }
-
-  // Helper function to round to two decimals
-  function round(value, decimals) {
-    return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
   }
 
   var lat1 = coordA[0];
@@ -32,38 +33,38 @@ var calcDist = (coordA, coordB) => {
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   var d = R * c; // distance is in km, let's convert it to feet
   var distanceInFeet = d * 3280.84; // 1km = 3280.84 feet
-  return round(distanceInFeet, 2) + ' feet away';
+  return _round(distanceInFeet, 2) + ' feet away';
 };
 
-var calcTime = (timeA, timeB) => {
-  /*
-  // Turn timeTweetPostedAgo into seconds, minutes, hours, days, or years
-        var rawTime = Int(timeTweetPostedAgo)
-        var timeAgo: Int = 0
-        var timeChar = ""
+var calcTime = (timePosted) => {
+  var rawCurTime = Date.now();
+  var rawTimePosted = new Date(timePosted);
+  console.log(rawCurTime);
+  console.log(timePosted);
 
-        rawTime = rawTime * (-1)
+  var rawTime = (rawCurTime - rawTimePosted) / 1000; // convert from milliseconds to seconds
+  var timeAgo = 0;
+  var timeChar = '';
 
-        // Figure out time ago
-        if (rawTime <= 60) { // SECONDS
-            timeAgo = rawTime
-            timeChar = "s"
-        } else if ((rawTime/60) <= 60) { // MINUTES
-            timeAgo = rawTime/60
-            timeChar = "m"
-        } else if (rawTime/60/60 <= 24) { // HOURS
-            timeAgo = rawTime/60/60
-            timeChar = "h"
-        } else if (rawTime/60/60/24 <= 365) { // DAYS
-            timeAgo = rawTime/60/60/24
-            timeChar = "d"
-        } else if (rawTime/(60/60/24/365) <= 1) { // ROUGH ESTIMATE OF YEARS
-            timeAgo = rawTime/60/60/24/365
-            timeChar = "y"
-        }
+  // Figure out time ago:
+  if (rawTime <= 60) { // Seconds
+    timeAgo = rawTime;
+    timeChar = 's';
+  } else if ((rawTime/60) <= 60) { // Minutes
+    timeAgo = rawTime/60;
+    timeChar = 'm';
+  } else if ((rawTime/60/60) <= 24) { // Hours
+    timeAgo = rawTime/60/60;
+    timeChar = 'h';
+  } else if ((rawTime/60/60/24) <= 365) { // Days
+    timeAgo = rawTime/60/60/24;
+    timeChar = 'd';
+  } else if ((rawTime/60/60/24/365) <= 1) { // Rough estimate of years
+    timeAgo = rawTime/60/60/24/365;
+    timeChar = 'y';
+  }
 
-        return "\(timeAgo)\(timeChar)"
-  */
+  return _round(timeAgo, 0) + timeChar + ' ago';
 }
 
 module.exports.calcDist = calcDist;
