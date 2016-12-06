@@ -92,11 +92,11 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_Nav2.default, null),
 	        _react2.default.createElement(_SideBar2.default, { className: 'pure-u-1-2' }),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'pure-g' },
-	          _react2.default.createElement(_Nav2.default, { className: 'pure-u-1' }),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'pure-u-1-2' },
@@ -22267,24 +22267,44 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "nav",
-	        { className: "navbar navbar-default" },
+	        { className: "pure-menu pure-menu-horizontal" },
 	        _react2.default.createElement(
 	          "form",
-	          { className: "navbar-form navbar-left" },
+	          null,
 	          _react2.default.createElement(
 	            "div",
 	            { className: "form-group" },
-	            _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Latitude" }),
-	            _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Longitude" }),
 	            _react2.default.createElement(
-	              "button",
-	              { className: "btn hidden-sm-down", onClick: console.log('clicked!') },
-	              _react2.default.createElement("span", { className: "glyphicon glyphicon-map-marker" })
-	            ),
-	            _react2.default.createElement(
-	              "button",
-	              { className: "btn hidden-sm-down", onClick: console.log('got here!') },
-	              _react2.default.createElement("span", { className: "glyphicon glyphicon-refresh" })
+	              "ul",
+	              { className: "pure-menu-list" },
+	              _react2.default.createElement(
+	                "li",
+	                { className: "pure-menu-item" },
+	                _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Latitude" })
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                { className: "pure-menu-item" },
+	                _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Longitude" })
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                { className: "pure-menu-item" },
+	                _react2.default.createElement(
+	                  "button",
+	                  { className: "btn hidden-sm-down", onClick: console.log('clicked!') },
+	                  _react2.default.createElement("span", { className: "glyphicon glyphicon-map-marker" })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                { className: "pure-menu-item" },
+	                _react2.default.createElement(
+	                  "button",
+	                  { className: "btn hidden-sm-down", onClick: console.log('got here!') },
+	                  _react2.default.createElement("span", { className: "glyphicon glyphicon-refresh" })
+	                )
+	              )
 	            )
 	          )
 	        )
@@ -22304,10 +22324,75 @@
   \************************************/
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _SideBarItem = __webpack_require__(/*! ./SideBarItem.jsx */ 182);
+	
+	var _SideBarItem2 = _interopRequireDefault(_SideBarItem);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var SideBar = function (_React$Component) {
+	  _inherits(SideBar, _React$Component);
+	
+	  function SideBar(props) {
+	    _classCallCheck(this, SideBar);
+	
+	    return _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).call(this, props));
+	  }
+	
+	  _createClass(SideBar, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'pure-menu custom-restricted-width sidebar' },
+	        _react2.default.createElement(
+	          'span',
+	          { className: 'pure-menu-heading' },
+	          'Tweetr'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { className: 'pure-menu-list' },
+	          _react2.default.createElement(_SideBarItem2.default, null)
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return SideBar;
+	}(_react2.default.Component);
+	
+	exports.default = SideBar;
+
+/***/ },
+/* 182 */
+/*!****************************************!*\
+  !*** ./src/client/app/SideBarItem.jsx ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
-	    value: true
+	  value: true
 	});
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -22324,105 +22409,34 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var SideBar = function (_React$Component) {
-	    _inherits(SideBar, _React$Component);
+	var SideBarItem = function (_React$Component) {
+	  _inherits(SideBarItem, _React$Component);
 	
-	    function SideBar(props) {
-	        _classCallCheck(this, SideBar);
+	  function SideBarItem(props) {
+	    _classCallCheck(this, SideBarItem);
 	
-	        return _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).call(this, props));
+	    return _possibleConstructorReturn(this, (SideBarItem.__proto__ || Object.getPrototypeOf(SideBarItem)).call(this, props));
+	  }
+	
+	  _createClass(SideBarItem, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "li",
+	        { className: "pure-menu-item" },
+	        _react2.default.createElement(
+	          "a",
+	          { href: "" },
+	          "Dashboard"
+	        )
+	      );
 	    }
+	  }]);
 	
-	    _createClass(SideBar, [{
-	        key: "render",
-	        value: function render() {
-	            return _react2.default.createElement(
-	                "div",
-	                null,
-	                _react2.default.createElement(
-	                    "ul",
-	                    { className: "sidebar-nav" },
-	                    _react2.default.createElement(
-	                        "li",
-	                        { className: "sidebar-brand" },
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Start Bootstrap"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Dashboard"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Shortcuts"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Overview"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Events"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "About"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Services"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "li",
-	                        null,
-	                        _react2.default.createElement(
-	                            "a",
-	                            { href: "#" },
-	                            "Contact"
-	                        )
-	                    )
-	                )
-	            );
-	        }
-	    }]);
-	
-	    return SideBar;
+	  return SideBarItem;
 	}(_react2.default.Component);
 	
-	exports.default = SideBar;
+	exports.default = SideBarItem;
 
 /***/ }
 /******/ ]);

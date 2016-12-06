@@ -12,9 +12,9 @@ class App extends React.Component {
   render () {
     return (
       <div>
+        <Nav />
         <SideBar className="pure-u-1-2"/>
         <div className="pure-g">
-          <Nav className="pure-u-1"/>
           <div className="pure-u-1-2">
           <Tweets tweetData={window.dummyTweetsData.statuses} />
           </div>
