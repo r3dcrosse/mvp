@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+var twitterClient = require('./twitterClient.js');
 
 var app = express();
 
@@ -19,5 +20,11 @@ app.use('/src/client/', express.static(path.join(__dirname, '/../client')));
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/../../index.html'));
 });
+
+/* EXAMPLE TWEET RESPONSE
+twitterClient.get('search/tweets', {q: 'node.js'}, function(err, tweets, response) {
+  console.log(tweets);
+});
+*/
 
 module.exports = app;
