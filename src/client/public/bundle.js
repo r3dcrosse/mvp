@@ -88,12 +88,20 @@
 	    _this.state = {
 	      locations: {
 	        default: [undefined, undefined]
-	      }
+	      },
+	      tweets: []
 	    };
 	    return _this;
 	  }
 	
 	  _createClass(App, [{
+	    key: 'updateTweetData',
+	    value: function updateTweetData(tweetData) {
+	      this.setState({
+	        tweets: tweetData
+	      });
+	    }
+	  }, {
 	    key: 'onGetLocationHandler',
 	    value: function onGetLocationHandler(pos) {
 	      console.log('pos recieved', pos.coords.latitude);
@@ -104,12 +112,16 @@
 	      });
 	
 	      console.log('Updated location in state: ', this.state);
+	      var options = pos.coords.latitude.toString() + ',' + pos.coords.longitude.toString();
+	      console.log(this.props);
+	      this.props.getTwitterData(options, this.updateTweetData.bind(this));
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var getLocHandler = this.onGetLocationHandler.bind(this);
 	      var coords = this.state.locations.default;
+	      var tweets = this.state.tweets;
 	
 	      return _react2.default.createElement(
 	        'div',
@@ -122,7 +134,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'pure-u-1-2' },
-	            _react2.default.createElement(_Tweets2.default, { tweetData: window.dummyTweetsData.statuses })
+	            _react2.default.createElement(_Tweets2.default, { tweetData: tweets })
 	          )
 	        )
 	      );
@@ -132,7 +144,7 @@
 	  return App;
 	}(_react2.default.Component);
 	
-	(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('app'));
+	(0, _reactDom.render)(_react2.default.createElement(App, { getTwitterData: window.makeTwitterReq }), document.getElementById('app'));
 
 /***/ },
 /* 1 */

@@ -11,8 +11,15 @@ class App extends React.Component {
     this.state = {
       locations: {
         default: [undefined, undefined]
-      }
+      },
+      tweets: []
     }
+  }
+
+  updateTweetData (tweetData) {
+    this.setState({
+      tweets: tweetData
+    });
   }
 
   onGetLocationHandler (pos) {
@@ -24,11 +31,15 @@ class App extends React.Component {
     });
 
     console.log('Updated location in state: ',this.state);
+    var options = pos.coords.latitude.toString() + ',' + pos.coords.longitude.toString();
+    console.log(this.props);
+    this.props.getTwitterData(options, this.updateTweetData.bind(this));
   }
 
   render () {
     const getLocHandler = this.onGetLocationHandler.bind(this);
     const coords = this.state.locations.default;
+    const tweets = this.state.tweets;
 
     return (
       <div>
@@ -36,7 +47,7 @@ class App extends React.Component {
         <SideBar className="pure-u-1-2"/>
         <div className="pure-g">
           <div className="pure-u-1-2">
-          <Tweets tweetData={window.dummyTweetsData.statuses} />
+          <Tweets tweetData={tweets} />
           </div>
         </div>
       </div>
@@ -44,4 +55,4 @@ class App extends React.Component {
   }
 }
 
-render(<App/>, document.getElementById('app'));
+render(<App getTwitterData={window.makeTwitterReq} />, document.getElementById('app'));

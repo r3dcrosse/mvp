@@ -14,6 +14,9 @@ app.use('/src/client/public/', express.static(path.join(__dirname, '/../client/p
 // Serve up static files in syles (css stuff)
 app.use('/styles/', express.static(path.join(__dirname, '/../../styles')));
 
+// Serve up node_modules
+app.use('/node_modules/', express.static(path.join(__dirname, '/../../node_modules')));
+
 // Serve up dummy data
 app.use('/src/client/', express.static(path.join(__dirname, '/../client')));
 
