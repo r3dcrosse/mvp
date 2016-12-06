@@ -22258,21 +22258,25 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "nav",
-	        { className: "navbar" },
+	        { className: "navbar navbar-default" },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "col-md-6 col-md-offset-3" },
-	          _react2.default.createElement("input", { className: "form-control", type: "text" }),
-	          _react2.default.createElement("input", { className: "form-control", type: "text" }),
+	          "form",
+	          { className: "navbar-form navbar-left" },
 	          _react2.default.createElement(
-	            "button",
-	            { className: "btn hidden-sm-down", onClick: console.log('clicked!') },
-	            _react2.default.createElement("span", { className: "glyphicon glyphicon-map-marker" })
-	          ),
-	          _react2.default.createElement(
-	            "button",
-	            { className: "btn hidden-sm-down", onClick: console.log('got here!') },
-	            _react2.default.createElement("span", { className: "glyphicon glyphicon-refresh" })
+	            "div",
+	            { className: "form-group" },
+	            _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Latitude" }),
+	            _react2.default.createElement("input", { className: "form-control", type: "text", placeholder: "Longitude" }),
+	            _react2.default.createElement(
+	              "button",
+	              { className: "btn hidden-sm-down", onClick: console.log('clicked!') },
+	              _react2.default.createElement("span", { className: "glyphicon glyphicon-map-marker" })
+	            ),
+	            _react2.default.createElement(
+	              "button",
+	              { className: "btn hidden-sm-down", onClick: console.log('got here!') },
+	              _react2.default.createElement("span", { className: "glyphicon glyphicon-refresh" })
+	            )
 	          )
 	        )
 	      );
