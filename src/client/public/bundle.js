@@ -117,16 +117,22 @@
 	      this.props.getTwitterData(options, this.updateTweetData.bind(this));
 	    }
 	  }, {
+	    key: 'sideBarAddItemClicked',
+	    value: function sideBarAddItemClicked() {
+	      console.log('+ sign clicked!!!');
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var getLocHandler = this.onGetLocationHandler.bind(this);
+	      var addItemClicked = this.sideBarAddItemClicked.bind(this);
 	      var coords = this.state.locations.default;
 	      var tweets = this.state.tweets;
 	
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_SideBar2.default, { className: 'pure-u-1-2' }),
+	        _react2.default.createElement(_SideBar2.default, { className: 'pure-u-1-2', addItemClicked: addItemClicked }),
 	        _react2.default.createElement(_Nav2.default, { getLocHandler: getLocHandler, coords: coords }),
 	        _react2.default.createElement(
 	          'div',
@@ -22411,6 +22417,10 @@
 	
 	var _SideBarItem2 = _interopRequireDefault(_SideBarItem);
 	
+	var _AddSideBarItem = __webpack_require__(/*! ./AddSideBarItem.jsx */ 185);
+	
+	var _AddSideBarItem2 = _interopRequireDefault(_AddSideBarItem);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22443,15 +22453,7 @@
 	          'ul',
 	          { className: 'pure-menu-list' },
 	          _react2.default.createElement(_SideBarItem2.default, null),
-	          _react2.default.createElement(
-	            'li',
-	            { className: 'pure-menu-item' },
-	            _react2.default.createElement(
-	              'a',
-	              null,
-	              '+'
-	            )
-	          )
+	          _react2.default.createElement(_AddSideBarItem2.default, { addItemClicked: this.props.addItemClicked })
 	        )
 	      );
 	    }
@@ -22506,8 +22508,8 @@
 	        { className: "pure-menu-item" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "" },
-	          "Dashboard"
+	          null,
+	          "Location one"
 	        )
 	      );
 	    }
@@ -22600,6 +22602,62 @@
 	
 	module.exports.calcDist = calcDist;
 	module.exports.calcTime = calcTime;
+
+/***/ },
+/* 185 */
+/*!*******************************************!*\
+  !*** ./src/client/app/AddSideBarItem.jsx ***!
+  \*******************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var AddSideBarItem = function (_React$Component) {
+	  _inherits(AddSideBarItem, _React$Component);
+	
+	  function AddSideBarItem(props) {
+	    _classCallCheck(this, AddSideBarItem);
+	
+	    return _possibleConstructorReturn(this, (AddSideBarItem.__proto__ || Object.getPrototypeOf(AddSideBarItem)).call(this, props));
+	  }
+	
+	  _createClass(AddSideBarItem, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "li",
+	        { className: "pure-menu-item", onClick: this.props.addItemClicked },
+	        _react2.default.createElement(
+	          "a",
+	          null,
+	          "+"
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return AddSideBarItem;
+	}(_react2.default.Component);
+	
+	exports.default = AddSideBarItem;
 
 /***/ }
 /******/ ]);

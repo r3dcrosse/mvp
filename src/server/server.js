@@ -26,17 +26,17 @@ app.get('/', function(req, res) {
 });
 
 // ACTUAL TWITTER RESPONSE CLIENT (LIMIT: 180 requests per 15 minutes)
-// app.get('/twitter', function(req, res) {
-//   console.log('Making request to twitter API...');
-//   twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
-//     res.status(200).send(tweets);
-//   });
-// });
+app.get('/twitter', function(req, res) {
+  console.log('Making request to twitter API...');
+  twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
+    res.status(200).send(tweets);
+  });
+});
 
 // FAKE TWITTER RESPONSE (USE FOR TESTING!!!!)
-app.get('/twitter', function(req, res) {
-  console.log('Making fake request to twitter API...');
-  res.status(200).send(fakeTweets.dummyTweetsData);
-});
+// app.get('/twitter', function(req, res) {
+//   console.log('Making fake request to twitter API...');
+//   res.status(200).send(fakeTweets.dummyTweetsData);
+// });
 
 module.exports = app;

@@ -36,14 +36,19 @@ class App extends React.Component {
     this.props.getTwitterData(options, this.updateTweetData.bind(this));
   }
 
+  sideBarAddItemClicked () {
+    console.log('+ sign clicked!!!');
+  }
+
   render () {
     const getLocHandler = this.onGetLocationHandler.bind(this);
+    const addItemClicked = this.sideBarAddItemClicked.bind(this);
     const coords = this.state.locations.default;
     const tweets = this.state.tweets;
 
     return (
       <div>
-        <SideBar className="pure-u-1-2"/>
+        <SideBar className="pure-u-1-2" addItemClicked={addItemClicked}/>
         <Nav getLocHandler={getLocHandler} coords={coords}/>
         <div className="pure-g">
           <div className="pure-u-1-2">

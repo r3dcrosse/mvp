@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBarItem from './SideBarItem.jsx';
+import AddSideBarItem from './AddSideBarItem.jsx';
 
 class SideBar extends React.Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class SideBar extends React.Component {
         <span className="pure-menu-heading">Tweetr</span>
           <ul className="pure-menu-list">
               <SideBarItem />
-              <li className="pure-menu-item"><a>+</a></li>
+              <AddSideBarItem addItemClicked={this.props.addItemClicked}/>
           </ul>
       </div>
     );
