@@ -47,7 +47,7 @@ class App extends React.Component {
         <SideBar className="pure-u-1-2"/>
         <div className="pure-g">
           <div className="pure-u-1-2">
-          <Tweets tweetData={tweets} />
+          <Tweets tweetData={tweets} currentLoc={coords}/>
           </div>
         </div>
       </div>

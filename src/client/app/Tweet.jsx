@@ -1,4 +1,5 @@
 import React from 'react';
+var dataUtils = require('./lib/dataUtils.js');
 
 class Tweet extends React.Component {
 
@@ -7,6 +8,8 @@ class Tweet extends React.Component {
   }
 
   render() {
+
+    const dist = 'Distance: ' + dataUtils.calcDist(this.props.currentLoc, this.props.tweet.geo);
     return (
       // Fun fact: can only return one component in react, so everything needs to
       // be wrapped in a div. That div is your one component you return!
@@ -17,6 +20,8 @@ class Tweet extends React.Component {
         <div className="media-body">
           <div className="tweet-list-entry-title">{'@'+this.props.tweet.user.screen_name}</div>
           <div className="tweet-list-entry-detail">{this.props.tweet.text}</div>
+          <div className="tweet-list-entry-detail">{'Tweeted at: '+this.props.tweet.created_at}</div>
+          <div className="tweet-list-entry-detail">{dist}</div>
         </div>
       </div>
     );

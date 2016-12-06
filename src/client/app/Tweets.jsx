@@ -12,7 +12,7 @@ class Tweets extends React.Component {
       <div className="tweet-list media">
         {
           this.props.tweetData.map(tweet =>
-            <Tweet key={tweet.id} tweet={tweet} />
+            <Tweet key={tweet.id} tweet={tweet} currentLoc={this.props.currentLoc}/>
           )
         }
       </div>
