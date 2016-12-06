@@ -5,14 +5,16 @@ class Nav extends React.Component {
     super(props);
   }
 
+  savePosition (pos) {
+    this.props.getLocHandler(pos);
+  }
+
   getCurrentLocation() {
     console.log('Trying to get current location');
-    var savePosition = (pos) => {
-      this.props.getLocHandler(pos);
-    };
 
+    var navClass = this;
     window.navigator.geolocation.getCurrentPosition(function(position) {
-      savePosition(position);
+      navClass.savePosition(position);
     })
   }
 
@@ -24,7 +26,10 @@ class Nav extends React.Component {
       }
     };
 
-    this.props.getLocHandler(pos);
+    console.log('GOT HERE', pos);
+    // TODO: Fix bug, set state this way is one step behind, need to click setCurrentLocation twice to update state
+
+    this.savePosition(pos);
   }
 
   render() {

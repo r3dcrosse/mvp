@@ -96,6 +96,7 @@
 	  _createClass(App, [{
 	    key: 'onGetLocationHandler',
 	    value: function onGetLocationHandler(pos) {
+	      console.log('pos recieved', pos.coords.latitude);
 	      this.setState({
 	        locations: {
 	          default: [pos.coords.latitude, pos.coords.longitude]
@@ -22282,17 +22283,18 @@
 	  }
 	
 	  _createClass(Nav, [{
+	    key: 'savePosition',
+	    value: function savePosition(pos) {
+	      this.props.getLocHandler(pos);
+	    }
+	  }, {
 	    key: 'getCurrentLocation',
 	    value: function getCurrentLocation() {
-	      var _this2 = this;
-	
 	      console.log('Trying to get current location');
-	      var savePosition = function savePosition(pos) {
-	        _this2.props.getLocHandler(pos);
-	      };
 	
+	      var navClass = this;
 	      window.navigator.geolocation.getCurrentPosition(function (position) {
-	        savePosition(position);
+	        navClass.savePosition(position);
 	      });
 	    }
 	  }, {
@@ -22305,12 +22307,15 @@
 	        }
 	      };
 	
-	      this.props.getLocHandler(pos);
+	      console.log('GOT HERE', pos);
+	      // TODO: Fix bug, set state this way is one step behind, need to click setCurrentLocation twice to update state
+	
+	      this.savePosition(pos);
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _this3 = this;
+	      var _this2 = this;
 	
 	      return _react2.default.createElement(
 	        'nav',
@@ -22318,14 +22323,14 @@
 	        _react2.default.createElement(
 	          'button',
 	          { className: 'btn hidden-sm-down', onClick: function onClick() {
-	              return _this3.getCurrentLocation();
+	              return _this2.getCurrentLocation();
 	            } },
 	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-map-marker' })
 	        ),
 	        _react2.default.createElement(
 	          'button',
 	          { className: 'btn hidden-sm-down', onClick: function onClick() {
-	              return _this3.setCurrentLocation();
+	              return _this2.setCurrentLocation();
 	            } },
 	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-refresh' })
 	        ),

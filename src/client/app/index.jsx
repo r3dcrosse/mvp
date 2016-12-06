@@ -16,6 +16,7 @@ class App extends React.Component {
   }
 
   onGetLocationHandler (pos) {
+    console.log('pos recieved', pos.coords.latitude);
     this.setState({
       locations: {
         default: [pos.coords.latitude, pos.coords.longitude]
