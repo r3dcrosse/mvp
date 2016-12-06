@@ -104,7 +104,8 @@
 	  }, {
 	    key: 'onGetLocationHandler',
 	    value: function onGetLocationHandler(pos) {
-	      console.log('pos recieved', pos.coords.latitude);
+	      console.log('lat recieved', pos.coords.latitude);
+	      console.log('long recieved', pos.coords.longitude);
 	      this.setState({
 	        locations: {
 	          default: [pos.coords.latitude, pos.coords.longitude]
@@ -113,7 +114,6 @@
 	
 	      console.log('Updated location in state: ', this.state);
 	      var options = pos.coords.latitude.toString() + ',' + pos.coords.longitude.toString();
-	      console.log(this.props);
 	      this.props.getTwitterData(options, this.updateTweetData.bind(this));
 	    }
 	  }, {

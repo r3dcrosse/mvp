@@ -24,6 +24,13 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/../../index.html'));
 });
 
+app.get('/twitter', function(req, res) {
+  console.log('Making request to twitter API...');
+  twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
+    res.status(200).send(tweets);
+  });
+});
+
 /* EXAMPLE TWEET RESPONSE
 twitterClient.get('search/tweets', {q: 'node.js'}, function(err, tweets, response) {
   console.log(tweets);
