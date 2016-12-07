@@ -1,2 +1,2 @@
-web: nodemon src/server/server.js;
+web: node src/server/server.js;
 worker: npm run dev;
