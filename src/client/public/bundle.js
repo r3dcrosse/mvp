@@ -22246,7 +22246,7 @@
 	          _react2.default.createElement(
 	            'span',
 	            { className: 'media-left media-middle' },
-	            _react2.default.createElement('img', { className: 'tweet-list-entry-image', src: this.props.tweet.user.profile_image_url }),
+	            _react2.default.createElement('img', { className: 'tweet-list-entry-image', src: this.props.tweet.user.profile_image_url_https }),
 	            _react2.default.createElement(
 	              'span',
 	              { className: 'tweet-list-name' },
@@ -22261,17 +22261,17 @@
 	              'span',
 	              { className: 'tweet-list-time' },
 	              timeSincePosted
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'tweet-list-entry-detail' },
+	              dist
 	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'tweet-list-entry-text' },
 	            this.props.tweet.text
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'tweet-list-entry-detail' },
-	            dist
 	          )
 	        )
 	      );

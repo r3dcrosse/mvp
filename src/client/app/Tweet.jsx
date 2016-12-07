@@ -21,9 +21,9 @@ class Tweet extends React.Component {
           <span className="tweet-list-name">{name}</span>
           <span className="tweet-list-username">{'@'+this.props.tweet.user.screen_name}</span>
           <span className="tweet-list-time">{timeSincePosted}</span>
+          <span className="tweet-list-entry-detail">{dist}</span>
         </span>
         <div className="tweet-list-entry-text">{this.props.tweet.text}</div>
-        <div className="tweet-list-entry-detail">{dist}</div>
       </div>
     );
   }

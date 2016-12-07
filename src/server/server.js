@@ -30,7 +30,7 @@ app.get('/', function(req, res) {
 // ACTUAL TWITTER RESPONSE CLIENT (LIMIT: 180 requests per 15 minutes)
 app.get('/twitter', function(req, res) {
   console.log('Making request to twitter API...');
-  twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo}, function(err, tweets, response) {
+  twitterClient.get('search/tweets', {q: ' ', geocode: req.query.geo, count: 100}, function(err, tweets, response) {
     res.status(200).send(tweets);
   });
 });

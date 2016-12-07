@@ -1,0 +1,19 @@
+// Hack reactor
+37.7836365
+-122.4089974
+
+// UC Berkeley Library
+37.8720641
+-122.2594635
+
+// Googleplex in Mountain View
+37.421948
+-122.0841731
+
+// Tokyo University of Science
+35.6993798
+139.7413566
+
+// University of Melbourne in Victoria
+-37.7963678
+144.9610936
