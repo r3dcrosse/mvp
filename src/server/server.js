@@ -5,8 +5,10 @@ var fakeTweets = require('./dummyData.js');
 
 var app = express();
 
-app.listen(1337, function() {
-  console.log('Tweetr server listening on port 1337!');
+var port = process.end.PORT || 1337;
+
+app.listen(port, function() {
+  console.log('Tweetr server listening on port ', port);
 });
 
 // Serve up static files in the public directory
