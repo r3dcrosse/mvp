@@ -17,7 +17,7 @@ class Tweet extends React.Component {
       // be wrapped in a div. That div is your one component you return!
       <div className="tweet-list-entry">
         <span className="media-left media-middle">
-          <img className="tweet-list-entry-image" src={this.props.tweet.user.profile_image_url} />
+          <img className="tweet-list-entry-image" src={this.props.tweet.user.profile_image_url_https} />
           <span className="tweet-list-name">{name}</span>
           <span className="tweet-list-username">{'@'+this.props.tweet.user.screen_name}</span>
           <span className="tweet-list-time">{timeSincePosted}</span>
