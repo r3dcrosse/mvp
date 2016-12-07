@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r3dcrosse/hrsf51-mvp.git"
+    "url": "git+https://github.com/r3dcrosse/mvp"
   },
   "author": "David Wayman",
   "license": "UNLICENSED",
@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/r3dcrosse/hrsf51-mvp#readme",
   "dependencies": {
-    "node": "^6.9.1",
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
