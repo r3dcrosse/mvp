@@ -5,7 +5,7 @@ var fakeTweets = require('./dummyData.js');
 
 var app = express();
 
-var port = process.end.PORT || 1337;
+var port = process.env.PORT || 1337;
 
 app.listen(port, function() {
   console.log('Tweetr server listening on port ', port);
