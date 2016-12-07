@@ -4,9 +4,9 @@
   "description": "Like Grindr, but for your tweets",
   "main": "index.js",
   "scripts": {
-    "test": "live-server --open=./index.html --port=8081",
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "start": "node src/server/server.js"
   },
   "repository": {
     "type": "git",

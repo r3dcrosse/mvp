@@ -1,2 +1,1 @@
-web: node src/server/server.js;
-worker: npm run dev;
+web: node src/server/server.js
